@@ -1,0 +1,48 @@
+.book-card {
+    border: 1px solid #ccc;
+    
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.grid{
+display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.book-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.bookshelf {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px ;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.bookshelf h2 {
+    margin-bottom: 20px;
+}
+.shelf{
+    width: 70px;
+    height: 35px;
+    border-radius: 9px;
+}
